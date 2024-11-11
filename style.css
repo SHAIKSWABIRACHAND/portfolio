@@ -7,8 +7,15 @@ img{
   h2{
     font-size: 18px;
   }
+  .container{
+    align-self: center;    
+  }
 .hello{
   border-radius: 0px;
+ 
+}
+p{
+  text-align: center;
 }
 
   body{
