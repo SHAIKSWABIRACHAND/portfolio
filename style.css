@@ -7,6 +7,11 @@ img{
   h2{
     font-size: 18px;
   }
+  .hello{
+    border-radius: 0px;
+    margin-top: 30px;
+
+  }
   body{
     background: linear-gradient(to right,slateblue, lightblue);
     font-family: 'Trebuchet MS';
