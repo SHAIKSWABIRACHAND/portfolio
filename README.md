@@ -1,3 +1,5 @@
 # portfolio
  this is my portfolio
-ANY THING ELSE
+ - all about me
+
+
