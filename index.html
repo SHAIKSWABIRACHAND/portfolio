@@ -1,26 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body>
-    <div class = 'container'>
-      <img src="image.png" width="150" />
 
-      <!-- <img src="" alt="profile pic" width = "150"> -->
-      <h1>SHAIK SWABIRA CHAND</h1>
-      <h2>Aspiring Software Developer <i class="fas fa-code"></i></h2>
-      <p>Welcome to ur project session</p>
-      <a
-        href="https://www.linkedin.com/in/shaik-swabira-chand-658a2a2ba/?trk=opento_sprofile_topcard&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BtDb9sSy2S3On0QQ44jOmpQ%3D%3D"
-        ><i class="fab fa-linkedin"></i> linkedin</a>
-        <br>
-      <a href="certificates.html" target="_blank">view-certificates </a>
-    </div>
-    
-    
-  </body>
+  <body>
+    <header>
+      <nav>
+        <div class="Left">Hannu's Portfolio</div>
+        <div class="Right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="public/About.html">About</a></li>
+            <li><a href="public/certificates.html">Achievments</a></li>
+            <li><a href="https://github.com/SHAIKSWABIRACHAND" target="_blank">Projects</a></li>
+            <li><a href="">Contact-Me?</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+            <div>Hii, my name is <span class="text-purple">Swabira,</div>
+        </span>
+          <span id="element"></span>
+        </div>
+        
+        <div class="rightSection">
+          <img src="./pictures/image copy.png" alt="" />
+        </div>
+      </section>
+      <br><hr>
+      <section class="secondSection">
+        <h1>PastExperience</h1>
+<!--         
+        <span class = "text-gray">What I have Done so far</span>
+        <h1>Work Experience</h1> -->
+      </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Btech student', 'web designer','AI/ML Architect'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
 </html>
